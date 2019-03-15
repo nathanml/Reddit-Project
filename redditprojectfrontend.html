@@ -1,17 +1,50 @@
 <!DOCTYPE html>
 <html>
 <body>
+<div align = "center">
+<h1 style="font-family:Snell Roundhand, cursive; font-size:300%;"> Welcome to Feel Good Threads! </h1>
+</div>
+<style>
+#AddThread{
+  background-color: #00ccff;
+  padding: .5em;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 6px;
+  color: #fff;
+  font-family: 'Bradley Hand', cursive;
+  font-size: 15px;
+  text-decoration: none;
+  border: #;
+}
+</style>
 
+
+<p> Missing some of your favorite threads? Enter some of your personal favorites below! </p>
 <form action="/action_page.php">
-Input Reddit Thread Here: <input type="text" name="FirstName" value="Mickey"><br>
-<input type="submit" value="Add Thread">
+Name of Reddit Thread: <input type="text" name="FirstName" value="MadeMeSmile"><br>
+<button id="AddThread">Add Thread</button>
 </form>
 
-<form action="/action_page.php">
-<input type="submit" value="Click to view your content">
-</form>
+<style>
+#ViewContent{
+  background-color: #ff99ff;
+  padding: .5em;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 6px;
+  color: #fff;
+  font-family: 'Bradley Hand', cursive;
+  font-size: 25px;
+  text-decoration: none;
+  border: #;
+}
+</style>
+<p> To continue to your newly updated content click the button below!</p>
 
-<p>The first button will input a thread into your desired list of threads. The second button will output selected content from your specified threads.</p>
+<form action="/action_page.php">
+<button id = "ViewContent"> Continue to Content ></button>
+</form>
 
 </body>
 </html>
