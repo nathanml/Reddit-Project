@@ -16,7 +16,10 @@ $ python redditprojectbackend.py
 
 ## Credits
 
-Tyler Donati
+Tyler Donati 
+
 Cathy Kim
+
 Nathan Levy
+
 Jacob Ehrlich
