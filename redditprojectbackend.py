@@ -3,12 +3,15 @@ import webbrowser
 import secretStuff
 
 #need this to call reddit API
+#You must get a unique client ID from Reddit API to run this
+
 reddit = praw.Reddit(client_id =secretStuff.client_id,
                      client_secret = secretStuff.client_secret,
                      user_agent = 'DogMounter')
 
 
 #list of 'cute' subreddits
+# User input from the front end added to list of subreddits
 subreddits = ['aww', 'wholesomememes', 'eyebleach']
 
 
