@@ -2,8 +2,21 @@
 
 Outputs posts from top reddit threads specified by user
 
+## Dependencies
 To install dependencies, run
 
-pip3 install praw
+```bash
+$ pip3 install praw
+```
+To run the app, run
 
-To run the app
+```bash
+$ python redditprojectbackend.py
+```
+
+## Credits
+
+Tyler Donati
+Cathy Kim
+Nathan Levy
+Jacob Ehrlich
