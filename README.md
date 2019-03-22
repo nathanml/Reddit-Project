@@ -21,5 +21,3 @@ Tyler Donati
 Cathy Kim
 
 Nathan Levy
-
-Jacob Ehrlich
