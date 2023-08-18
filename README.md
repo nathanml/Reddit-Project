@@ -18,8 +18,8 @@ $ python redditprojectbackend.py
 2. Django
 3. Public APIs
 4. Parsing JSON requests
+   
 ## Credits
-
 Tyler Donati 
 
 Cathy Kim
