@@ -1,6 +1,6 @@
 # Reddit Project
 
-Outputs posts from top reddit threads specified by user
+Web application built using Python and Django that outputs posts from top reddit threads specified by user.
 
 ## Dependencies
 To install dependencies, run
@@ -13,7 +13,11 @@ To run the app, run
 ```bash
 $ python redditprojectbackend.py
 ```
-
+## Things We Learned
+1. Python
+2. Django
+3. Public APIs
+4. Parsing JSON requests
 ## Credits
 
 Tyler Donati 
